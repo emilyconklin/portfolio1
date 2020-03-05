@@ -132,7 +132,11 @@ nav a:hover {
      body {
          overflow-x: hidden;
      }
- 
+
+ .hero-contain {
+Margin-left: 1rem;
+}
+
    .nav-links {
      position: fixed;
      left: 100%;
