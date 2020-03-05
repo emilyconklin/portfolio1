@@ -160,6 +160,9 @@ Margin-left: 1rem;
        cursor: pointer;
    }
 
+   .hero-img {
+       width: 300px;
+   }
 
  .hero {
      margin-top: 1rem;
