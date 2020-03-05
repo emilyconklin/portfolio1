@@ -44,7 +44,7 @@ nav {
 
 .hero img {
    max-width:1000px;
-    margin-left: 2rem;
+    height: auto;
     
 }
 
@@ -160,11 +160,6 @@ Margin-left: 1rem;
        cursor: pointer;
    }
 
-   .hero img {
-margin: auto;
-Width: 300px;
-     
- }
 
  .hero {
      margin-top: 1rem;
