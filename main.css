@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .hero-contain p {
-  border-right: solid 3px rgba(0, 255, 0, .75);
+  border-right: solid 3px #333;
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 3rem;
@@ -125,8 +125,7 @@ nav a:hover {
   white-space: nowrap;
   overflow: hidden;
   animation: animated-text 2s steps(30, end) 1s 1 normal both,
-    animated-cursor 700ms steps(10, end) infinite;
-
+    animated-cursor 700ms steps(10, end) 10;
 }
 
 @keyframes animated-text {
