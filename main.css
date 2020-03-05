@@ -161,7 +161,8 @@ Margin-left: 1rem;
    }
 
    .hero img {
-       width: 300px;
+       max-width: 500px;
+       height: auto;
    }
 
  .hero {
