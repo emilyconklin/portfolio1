@@ -1,200 +1,242 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 body {
-    background-color: #ddd9d6;
+  background-color: #ddd9d6;
 }
 
 nav {
-    height: 75px;
-    width: 100%;
-    background-color:black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: black;
-    background-color: #ddd9d6;
-   
+  height: 75px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  background-color: #ddd9d6;
+
 }
 
 
 .logo {
-    height: 50px;
-    margin-left: 1rem;
-    
+  height: 50px;
+  margin-left: 1rem;
+
 }
 
 .nav-links {
-    width: max-content;
+  width: max-content;
 }
 
 
 .hero {
-   
-    margin-top: 5rem;
-    display: flex;
-    flex-wrap: wrap;
-    /* background-color: aquamarine; */
- 
+
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: aquamarine; */
+
 }
 
 .hero-contain {
-    margin-left: 1REM;
+  margin-left: 1REM;
 }
 
 .hero img {
-   max-width:1000px;
-    height: auto;
-    
+  max-width: 1000px;
+  height: auto;
+
 }
 
 .logo-text {
-   font-family: 'Grand Hotel', cursive;
-   font-size: 2rem;
-   margin-left: 1rem;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 2rem;
+  margin-left: 1rem;
 }
 
 .menu {
-    display: none;
- }
+  display: none;
+}
 
- nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 400px;
-    justify-content: space-between;
-    margin-right: 2rem;
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-right: 2rem;
 }
 
 .logo-contain {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    color: white;
-    list-style: none;
-    margin: 0;
+  color: white;
+  list-style: none;
+  margin: 0;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 4rem;
-    color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  color: #333;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size:9rem;
-    color:rgb(101, 57, 172);
-    text-transform: uppercase;
-    font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  font-size: 9rem;
+  color: rgb(101, 57, 172);
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    color:rgb(101, 57, 172)
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  color: rgb(101, 57, 172)
 }
 
 nav a:hover {
-    color: white;
+  color: white;
 }
 
 .feather-menu {
-    margin-right: 2rem;
-    color:rgb(101, 57, 172);
+  margin-right: 2rem;
+  color: rgb(101, 57, 172);
 }
 
 .hero-contain p {
-    font-size: 4rem;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3rem;
-}
- 
- /*Close icon*/
- 
- .close {
-     opacity: 0;
-     cursor: pointer;
-    
- }
- 
- /* Media Queries */
- 
- @media (orientation: portrait) {
-     body {
-         overflow-x: hidden;
-     }
+  border-right: solid 3px rgba(0, 255, 0, .75);
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3rem;
+  font-family: 'Roboto Slab', serif;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: animated-text 5s steps(30, end) 1s 1 normal both,
+    animated-cursor 700ms steps(10, end) infinite;
 
- .hero-contain {
-Margin: AUTO;
 }
 
-   .nav-links {
-     position: fixed;
-     left: 100%;
-     height: 100%;
-     top: 0;
-     background-color: #333;
-     display:BLOCK;
-     padding-left: 1rem;
-     width: 300px;
-     transform: translateX(100%);
-     transition: transform .4s ease-in;
-     
-   }
- 
-   .nav-links li {
-       margin: 1rem;
-   }
- 
-   .menu {
-       display: block;
-       cursor: pointer;
-   }
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
 
-   .hero img {
-       max-width: 300px;
-       height: auto;
-       margin: AUTO;
-   }
+  to {
+    width: 510px;
+  }
+}
 
- .hero {
-     margin-top: 1rem;
- }
- 
-   .close {
-     opacity: 1;
-     text-align: right;
-     display: block;
- }
+/* cursor animations */
 
- h2 {
-     font-size:3rem;
-     font-weight: 700;
- }
+@keyframes animated-cursor {
+  from {
+    border-right-color: #333
+  }
 
- .hero-contain p {
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+/*Close icon*/
+
+.close {
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+/* Media Queries */
+
+@media (orientation: portrait) {
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 249px;
+    }
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-contain {
+    Margin: AUTO;
+  }
+
+  .nav-links {
+    position: fixed;
+    left: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #333;
+    display: BLOCK;
+    padding-left: 1rem;
+    width: 300px;
+    transform: translateX(100%);
+    transition: transform .4s ease-in;
+
+  }
+
+  .nav-links li {
+    margin: 1rem;
+  }
+
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hero img {
+    max-width: 300px;
+    height: auto;
+    margin: AUTO;
+  }
+
+  .hero {
+    margin-top: 1rem;
+  }
+
+  .close {
+    opacity: 1;
+    text-align: right;
+    display: block;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .hero-contain p {
     font-size: 2rem;
-   margin-top: .4rem;
+
     letter-spacing: 1.5rem;
+  }
+
+
 }
- }
- 
- /* nav-active */
- 
- .nav-active {
-     transform: translateX(-100%);
- }
+
+/* nav-active */
+
+.nav-active {
+  transform: translateX(-100%);
+}
