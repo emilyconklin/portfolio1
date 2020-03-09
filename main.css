@@ -29,11 +29,6 @@ nav li {
   margin-left: 2rem;
 }
 
-.close {
-  opacity: 0;
-  cursor: pointer;
-}
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -52,13 +47,14 @@ nav a {
   font-size: 1.5rem;
   color: rgb(101, 57, 172);
   transition: box-shadow .4s;
-  border-radius: 90%;
+
   padding: 10px;
 }
 
 nav a:hover {
   color: #333;
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  background-color: rgba(56, 32, 78, 0.4);
 }
 
 .feather-menu {
@@ -68,6 +64,11 @@ nav a:hover {
 
 .menu {
   display: none;
+}
+
+.close {
+  opacity: 0;
+  cursor: pointer;
 }
 
 .nav-links {
@@ -208,6 +209,12 @@ h2 {
 
   .nav-links li {
     margin: 1rem;
+  }
+  
+  .nav-links a:hover {
+    color: white;
+    background-color: #333;
+    box-shadow: none;
   }
 
   .menu {
