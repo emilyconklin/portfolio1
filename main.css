@@ -125,8 +125,9 @@ main {
 
 .hi {
   color: white;
- 
+
 }
+
 /* HERO */
 
 .hero {
@@ -137,8 +138,8 @@ main {
 }
 
 .hero-contain {
- margin: auto;
- margin-left: 2rem;
+  margin: auto;
+  margin-left: 2rem;
 }
 
 .hero img {
@@ -256,7 +257,7 @@ h2 {
   .nav-links a {
     color: #80a1ec;
   }
-  
+
   .nav-links a:hover {
     color: white;
     background-color: #333;
@@ -273,9 +274,6 @@ h2 {
     text-align: right;
     display: block;
   }
-
- 
-
 }
 
 /* nav-active */
