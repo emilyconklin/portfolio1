@@ -98,7 +98,8 @@ nav a:hover {
 main {
   height: 50vh;
   width: 100%;
-  background-image: url('yyc.jpg');
+  /* background-image: url('yyc.jpg'); */
+  background-color: #333;
   background-position: center;
   object-fit: cover;
   margin-top: 1REM;
@@ -115,7 +116,8 @@ main {
 }
 
 .hero-contain {
-  margin-left: 2rem;
+ margin: auto;
+ margin-left: 2rem;
 }
 
 .hero img {
@@ -152,7 +154,7 @@ h2 {
   }
 
   60% {
-    transform: translateX(-3vw);
+    transform: translateX(-2vw);
   }
 }
 
