@@ -46,14 +46,11 @@ nav a {
   text-transform: uppercase;
   font-size: 1.5rem;
   color: #5367cc;
-  transition: box-shadow .4s;
-  border-radius: .5rem;
   padding: 10px;
 }
 
 nav a:hover {
   color: #80a1ec;
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 .feather-menu {
