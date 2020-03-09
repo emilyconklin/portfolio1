@@ -93,6 +93,18 @@ nav a:hover {
   align-items: center;
 }
 
+/* MAIN */
+
+main {
+  height: 50vh;
+  width: 100%;
+  background-image: url('yyc.jpg');
+  background-position: center;
+  object-fit: cover;
+  margin-top: 1REM;
+}
+
+
 /* HERO */
 
 .hero {
@@ -152,16 +164,6 @@ h2 {
   100% {
     transform: scale(1);
   }
-}
-
-/* MAIN */
-
-main {
-  height: 50vh;
-  width: 100%;
-  background-image: url('yyc.jpg');
-  background-position: center;
-  margin-top: 1REM;
 }
 
 /* Media Queries */
