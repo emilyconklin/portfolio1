@@ -124,6 +124,7 @@ main {
 
 .hi {
   color: white;
+ 
 }
 /* HERO */
 
@@ -214,6 +215,14 @@ h2 {
     font-size: 2rem;
     letter-spacing: 1.5rem;
   }
+
+  .hi {
+    font-size: 3rem;
+  }
+
+  main {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -263,6 +272,9 @@ h2 {
     text-align: right;
     display: block;
   }
+
+ 
+
 }
 
 /* nav-active */
