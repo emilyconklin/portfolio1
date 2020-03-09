@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #ddd9d6;
 }
@@ -18,26 +17,21 @@ nav {
   justify-content: space-between;
   color: black;
   background-color: rgb(211, 208, 203);
-
 }
-
 
 .logo {
   height: 50px;
   margin-left: 1rem;
-
 }
 
 .nav-links {
   width: max-content;
 }
 
-
 .hero {
   margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
-  /* background-color: aquamarine; */
 }
 
 .hero-contain {
@@ -66,7 +60,6 @@ nav ul {
   width: 600px;
   justify-content: space-between;
   margin-right: 2.5rem;
-
 }
 
 .logo-contain {
@@ -80,7 +73,6 @@ nav li {
   margin: 0;
   margin-left: 2rem;
 }
-
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -97,7 +89,6 @@ h2 {
   font-weight: 900;
   animation: pop 1.2s ease-in;
 }
-
 
 @keyframes slide-in {
   0% {
@@ -153,7 +144,6 @@ nav a:hover {
 .close {
   opacity: 0;
   cursor: pointer;
-
 }
 
 /* Media Queries */
@@ -185,11 +175,9 @@ nav a:hover {
     margin: 1rem;
   }
 
-
   nav a:hover {
     color: white;
   }
-
 
   .menu {
     display: block;
