@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 
-/* SMALL SCREEN NAV */
+/* NAV */
 
 nav {
   height: 75px;
@@ -20,56 +20,60 @@ nav {
   justify-content: space-between;
   color: black;
   background-color: rgb(211, 208, 203);
-  margin-bottom: 5vh;
 }
 
-.nav-links {
-  position: fixed;
-  left: 100%;
-  height: 100%;
-  top: 0;
-  background-color: #333;
-  display: BLOCK;
-  padding-left: 1rem;
-  width: 300px;
-  transform: translateX(100%);
-  transition: transform .4s ease-in;
-}
-
-.nav-links li {
-  margin: 1rem;
+nav li {
+  color: white;
   list-style: none;
+  margin: 0;
+  margin-left: 2rem;
 }
 
-.nav-links a {
+.close {
+  opacity: 0;
+  cursor: pointer;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-right: 2.5rem;
+}
+
+nav a {
+  color: white;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-size: 1.5rem;
   color: rgb(101, 57, 172);
+  transition: box-shadow .4s;
+  border-radius: 90%;
+  padding: 10px;
 }
 
 nav a:hover {
-  color: white;
+  color: #333;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.feather-menu {
+  margin-right: 2rem;
+  color: rgb(101, 57, 172);
 }
 
 .menu {
-  display: block;
-  cursor: pointer;
-  margin-right: 2rem;
-}
-
-.close {
-  opacity: 1;
-  text-align: right;
-  display: block;
-  cursor: pointer;
-}
-
-#large {
   display: none;
 }
+
+.nav-links {
+  width: max-content;
+}
+
 
 /* LOGO */
 
@@ -179,60 +183,42 @@ h2 {
   }
 }
 
-/* LARGE SCREEN NAV */
+@media (max-width: 1000px) {
 
-@media (min-width: 1000px) {
-
-  #large {
-    display: block;
+  body {
+    overflow-x: hidden;
   }
 
-  #large li {
-    list-style: none;
-    margin: 0;
-    margin-left: 1rem;
-    display: inline;
-  }
-
-  #large ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 600px;
-    justify-content: space-between;
-  }
-
-  #large a {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    color: rgb(101, 57, 172);
-    padding: .5rem;
-    margin-right: 1rem;
-  }
-
-  #large a:hover {
-    color: #333;
-    background-color: rgba(107, 60, 116, 0.5);
-    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
-  }
-
-  .menu {
-    display: none;
-  }
-
-  #large {
-    width: max-content;
+  .hero-contain {
+    Margin: AUTO;
   }
 
   .nav-links {
-    display: none;
+    position: fixed;
+    left: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #333;
+    display: BLOCK;
+    padding-left: 1rem;
+    width: 300px;
+    transform: translateX(100%);
+    transition: transform .4s ease-in;
+  }
+
+  .nav-links li {
+    margin: 1rem;
+  }
+
+  .menu {
+    display: block;
+    cursor: pointer;
   }
 
   .close {
-    opacity: 0;
+    opacity: 1;
+    text-align: right;
+    display: block;
   }
 }
 
