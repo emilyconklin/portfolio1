@@ -66,7 +66,7 @@ nav ul {
   width: 600px;
   justify-content: space-between;
   margin-right: 2.5rem;
-  
+
 }
 
 .logo-contain {
@@ -86,7 +86,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 7vw;
   color: #333;
-  animation: slide-in 1.4s ease;
+  animation: slide-in 1.5s ease;
 }
 
 h2 {
@@ -103,6 +103,7 @@ h2 {
   0% {
     transform: translateX(90vw);
   }
+
   60% {
     transform: translateX(-3vw);
   }
@@ -112,6 +113,7 @@ h2 {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(1);
   }
@@ -125,13 +127,12 @@ nav a {
   text-transform: uppercase;
   font-size: 1.5rem;
   color: rgb(101, 57, 172);
- 
   padding: 10px;
 }
 
 nav a:hover {
   color: #333;
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 .feather-menu {
@@ -156,7 +157,7 @@ nav a:hover {
 }
 
 /* Media Queries */
-  
+
 @media (orientation: portrait) {
 
   body {
@@ -184,10 +185,10 @@ nav a:hover {
     margin: 1rem;
   }
 
-  
-nav a:hover {
-  color: white;
-}
+
+  nav a:hover {
+    color: white;
+  }
 
 
   .menu {
@@ -223,7 +224,7 @@ nav a:hover {
 }
 
 @media (min-width: 589px) and (max-width: 1200px) {
-  
+
   .nav-links {
     position: fixed;
     left: 100%;
@@ -239,6 +240,10 @@ nav a:hover {
 
   .nav-links li {
     margin: 1rem;
+  }
+
+  nav a:hover {
+    color: white;
   }
 
   .menu {
