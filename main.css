@@ -99,14 +99,13 @@ nav a:hover {
 }
 
 .hero-contain {
-  margin-left: 2REM;
+  margin-left: 2rem;
 }
 
 .hero img {
   max-width: 40vw;
   height: auto;
 }
-
 
 .hero-contain p {
   font-size: 4vw;
@@ -161,7 +160,6 @@ h2 {
 
   h2 {
     font-size: 3rem;
-    font-weight: 700;
   }
 
   .hero img {
@@ -211,12 +209,13 @@ h2 {
     text-transform: uppercase;
     font-size: 1.5rem;
     color: rgb(101, 57, 172);
-    padding: 10px;
+    padding: .5rem;
     margin-right: 1rem;
   }
 
   #large a:hover {
     color: #333;
+    background-color: rgba(107, 60, 116, 0.5);
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
   }
 
