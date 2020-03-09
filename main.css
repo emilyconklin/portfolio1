@@ -65,7 +65,7 @@ nav a:hover {
   border: inherit;
   outline-color: inherit;
   outline-offset: inherit;
-    box-shadow: inherit;
+  box-shadow: inherit;
 }
 
 .feather-menu {
@@ -256,7 +256,7 @@ h2 {
     left: 100%;
     height: 100%;
     top: 0;
-    background-color: #333;
+    background-color: black;
     display: BLOCK;
     padding-left: 1rem;
     width: 300px;
@@ -277,8 +277,6 @@ h2 {
     background-color: #333;
     box-shadow: none;
   }
-
- 
 
   .menu {
     display: block;
