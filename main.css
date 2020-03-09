@@ -48,10 +48,24 @@ nav a {
   font-size: 1.5rem;
   color: #5367cc;
   padding: 10px;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 nav a:hover {
   color: #80a1ec;
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+}
+
+.logo-contain a:hover {
+  border: inherit;
+  outline-color: inherit;
+  outline-offset: inherit;
+    box-shadow: inherit;
 }
 
 .feather-menu {
@@ -91,6 +105,7 @@ nav a:hover {
   align-items: center;
 }
 
+
 /* MAIN */
 
 main {
@@ -125,7 +140,6 @@ main {
 
 .hi {
   color: white;
-
 }
 
 /* HERO */
@@ -263,6 +277,8 @@ h2 {
     background-color: #333;
     box-shadow: none;
   }
+
+ 
 
   .menu {
     display: block;
