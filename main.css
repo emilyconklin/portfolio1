@@ -161,7 +161,7 @@ main {
 }
 
 .hero img {
-  max-width: 40vw;
+  width: 40vw;
   height: auto;
 }
 
@@ -222,7 +222,7 @@ h2 {
 
   .hero img {
     width: 300px;
-    /* height: auto; */
+    height: auto;
     margin: AUTO;
   }
 
