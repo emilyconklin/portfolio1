@@ -143,6 +143,7 @@ main {
 
 .hi {
   color: white;
+  animation: 0;
 }
 
 /* HERO */
