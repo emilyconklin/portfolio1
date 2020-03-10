@@ -128,7 +128,7 @@ main {
 
 .me-img {
   width: 400px;
-  height: auto;
+  /* height: auto; */
   margin-right: 2rem;
   display: block;
 }
@@ -221,8 +221,8 @@ h2 {
   }
 
   .hero img {
-    max-width: 300px;
-    height: auto;
+    width: 300px;
+    /* height: auto; */
     margin: AUTO;
   }
 
