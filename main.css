@@ -53,20 +53,8 @@ nav a {
 }
 
 nav a:hover {
-  /* border: 1px solid; */
-  /* outline-color: rgba(255, 255, 255, 0);
-  outline-offset: 15px;
-  background: linear-gradient(120deg, #29252a 50%, black 50%); */
   color: white;
 }
-
-/* .logo-contain a:hover {
-  border: inherit;
-  outline-color: inherit;
-  outline-offset: inherit;
-  box-shadow: inherit;
-  background: inherit;
-} */
 
 .feather-menu {
   margin-right: 2rem;
