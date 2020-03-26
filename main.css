@@ -78,10 +78,11 @@ nav a:hover {
 /* LOGO */
 
 .logo-text {
-  font-family: 'Grand Hotel', cursive;
+  font-family: 'Damion', cursive;
+  letter-spacing: initial;
   font-size: 2.5rem;
   margin-left: 1rem;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 .logo-contain {
