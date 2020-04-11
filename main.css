@@ -221,12 +221,76 @@ h3 {
 .skills img {
   display: block;
   margin: .5rem;
+  transition:all 0.3s ease;
 }
 
 .skills i {
   margin: .5rem;
   display: block;
+  transition:all 0.3s ease;
 }
+
+@-webkit-keyframes swing {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+@keyframes swing {
+  15% {
+      -webkit-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  30% {
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+  }
+  50% {
+      -webkit-transform: translateY(3px);
+      transform: translateY(3px);
+  }
+  65% {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+  }
+  80% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+  }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+.swing:hover
+{
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
 
 .skills-icons {
   display: flex;
@@ -235,10 +299,6 @@ h3 {
   margin: auto;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.jekyll {
-  width: 180px;
 }
 
 .css {
@@ -252,7 +312,6 @@ h3 {
 .js {
   width: 50px;
 }
-
 
 .mongo {
   width: 70px;
