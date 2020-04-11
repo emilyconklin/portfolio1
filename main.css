@@ -396,6 +396,10 @@ h3 {
     font-size: 3rem;
   }
 
+  h3 {
+    font-size: 2rem;
+  }
+
   .hero img {
     width: 300px;
     height: auto;
