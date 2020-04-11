@@ -269,13 +269,17 @@ h3 {
   align-items: center;
 }
 
-.skills img {
+.fa-hand-peace {
+  display: inline;
+}
+
+.skills-icons img {
   display: block;
   margin: .5rem;
   transition:all 0.3s ease;
 }
 
-.skills i {
+.skills-icons i {
   margin: .5rem;
   display: block;
   transition:all 0.3s ease;
