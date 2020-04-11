@@ -269,10 +269,6 @@ h3 {
   align-items: center;
 }
 
-.fa-hand-peace {
-  display: inline;
-}
-
 .skills-icons img {
   display: block;
   margin: .5rem;
@@ -391,12 +387,39 @@ h3 {
 /* Projects Section */
 
 .projects {
-  background-image: url('assets/yyc.jpeg');
+  /* background-image: url('assets/yyc.jpeg');
   background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 55vh;
+  background-size: cover; */
+  background: linear-gradient(to bottom, #40468c 0%, #80a1ec 100%);
   width: 100%;
+  padding: 1.5rem;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5.5vw;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  margin: .5rem;
+ border-radius: .5rem;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* Media Queries */
@@ -413,6 +436,10 @@ h3 {
 
   h3 {
     font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 3rem;
   }
 
   .hero img {
