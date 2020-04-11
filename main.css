@@ -214,8 +214,9 @@ h2 {
 /* Call-to Actions Button Styles */
 
 button {
-  background-color: #80a1ec;
-  color: black;
+  background-color: #40468c;
+  color: white;
+ 
   border: 0;
   height: 50px;
   width: 200px;
@@ -228,8 +229,8 @@ button {
 }
 
 button:hover {
-  background-color: #40468c;
-  color: white;
+  background-color: #80a1ec;
+  color: black;
 }
 
 /* Skills Section */
