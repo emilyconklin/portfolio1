@@ -22,6 +22,8 @@ nav {
   background-color: rgb(211, 208, 203);
 }
 
+/* Navigation Bar */
+
 nav li {
   color: white;
   list-style: none;
@@ -56,6 +58,12 @@ nav a:hover {
   color: white;
 }
 
+.nav-links {
+  width: max-content;
+}
+
+/* Menu SVG */
+
 .feather-menu {
   margin-right: 2rem;
   color: rgb(101, 57, 172);
@@ -65,15 +73,12 @@ nav a:hover {
   display: none;
 }
 
+/* Close Button */
+
 .close {
   opacity: 0;
   cursor: pointer;
 }
-
-.nav-links {
-  width: max-content;
-}
-
 
 /* LOGO */
 
@@ -151,6 +156,8 @@ main {
   height: auto;
 }
 
+/* "Design" Heading */
+
 .hero-contain p {
   font-size: 4vw;
   text-transform: uppercase;
@@ -161,23 +168,14 @@ main {
   color: rgb(17, 17, 17);
 }
 
+/* "Modern" Heading */
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 7vw;
 
   color: #333;
   animation: slide-in 1.5s ease;
-}
-
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 9vw;
-
-  color: #40468c;
-  text-transform: uppercase;
-
-  font-weight: 900;
-  animation: pop 1.2s ease-in;
 }
 
 @keyframes slide-in {
@@ -190,6 +188,19 @@ h2 {
   }
 }
 
+/* "Powerful" Heading */
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 9vw;
+
+  color: #40468c;
+  text-transform: uppercase;
+
+  font-weight: 900;
+  animation: pop 1.2s ease-in;
+}
+
 @keyframes pop {
   0% {
     transform: scale(0);
@@ -198,6 +209,27 @@ h2 {
   100% {
     transform: scale(1);
   }
+}
+
+/* Call-to Actions Button Styles */
+
+button {
+  background-color: #80a1ec;
+  color: black;
+  border: 0;
+  height: 50px;
+  width: 200px;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: .5rem;
+}
+
+button:hover {
+  background-color: #40468c;
+  color: white;
 }
 
 /* Skills Section */
@@ -209,6 +241,8 @@ h2 {
   padding: 1rem;
 }
 
+/* "Mad Skillz" Heading */
+
 h3 {
   font-size: 3rem;
   letter-spacing: 1.5rem;
@@ -216,6 +250,17 @@ h3 {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
+}
+
+/* Skills Icons */
+
+.skills-icons {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 900px;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .skills img {
@@ -229,6 +274,8 @@ h3 {
   display: block;
   transition:all 0.3s ease;
 }
+
+/* Skills Icons Animations */
 
 @-webkit-keyframes swing {
   15% {
@@ -282,6 +329,7 @@ h3 {
       transform: translateY(0);
   }
 }
+
 .swing:hover
 {
   -webkit-animation: swing 1s ease;
@@ -290,16 +338,7 @@ h3 {
   animation-iteration-count: 1;
 }
 
-
-
-.skills-icons {
-  display: flex;
-  justify-content: space-evenly;
-  max-width: 900px;
-  margin: auto;
-  flex-wrap: wrap;
-  align-items: center;
-}
+/* Skills Icons Image Sizes */
 
 .css {
   width: 50px;
@@ -317,7 +356,7 @@ h3 {
   width: 70px;
 }
 
-/* Skills Icons */
+/* Skills Icon Colours */
 
 .fa-github {
   color: rebeccapurple;
