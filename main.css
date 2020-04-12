@@ -214,7 +214,7 @@ h2 {
 /* Call-to Actions Button Styles */
 
 button {
-  background-color: #40468c;
+  background-color: teal;
   color: white;
  
   border: 0;
@@ -231,7 +231,7 @@ button {
 }
 
 button:hover {
-  background-color: #1f4fbe;
+  background-color: #40468c;
   color: white;
 }
 
@@ -401,6 +401,7 @@ h5 {
   font-size: 5.5vw;
   color: white;
   margin-bottom: 1rem;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .projects-container {
@@ -421,6 +422,8 @@ h5 {
 .card:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+
+
 
 /* Media Queries */
 
