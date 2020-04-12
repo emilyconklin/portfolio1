@@ -415,18 +415,6 @@ h5 {
   flex-wrap: wrap;
 }
 
-/* .card {
-  background-color: white;
-  height: 300px;
-  width: 300px;
-  margin: .5rem;
- border-radius: .5rem;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-} */
-
 /* CARDS */
 
 .container {
@@ -447,7 +435,7 @@ h5 {
 .overlay {
   position: absolute;
   bottom: 0;
-  background-color: #008CBA;
+  background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -472,15 +460,15 @@ h5 {
 }
 
 .overlay2 {
-  background-color: red;
+  /* background-color: red; */
 }
 
 .overlay3 {
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .overlay4 {
-  background-color: black;
+  /* background-color: black; */
 }
 
 
