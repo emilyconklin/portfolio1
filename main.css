@@ -546,7 +546,7 @@ h4 {
 form {
   max-width: 500px;
   margin: auto;
-  background-color: ivory;
+  background-color: rgb(224, 224, 224);
   padding: 1rem;
   font-size: .8rem;
 }
