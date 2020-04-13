@@ -28,10 +28,10 @@
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Skills</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
     <!-- HAMBURGER SVG -->
@@ -54,21 +54,21 @@
   </div>
 
   <!-- MAIN SECTION -->
-  <main>
+  <main id="about">
     <img src="SHMEEE2.png" alt="" class="me-img">
     <section class="about">
       <H1 class="hi">Hi there!</H1>
       <p>My name is <strong>Emily Conklin</strong> and I am a web & graphic designer located in Calgary, AB.</p><br>
       <p>New grad from the <strong>SAIT</strong> Web Developer program with tons of fresh skills and 1.5 years prior
         experience in graphic design.</p>
-      <button>Contact</button>
+      <a href="#contact"><button>Contact</button></a>
     </section>
   </main>
 
 
 
   <!-- SKILLS SECTION -->
-  <section class="skills">
+  <section class="skills" id="skills">
     <h3>Mad Skills</h3>
     <div class="skills-icons">
       <i class="fab fa-github swing"></i>
@@ -83,9 +83,9 @@
       <i class="fab fa-wordpress swing"></i></div>
   </section>
 
-  <!-- PROJECTS SECTIONS -->
+  <!-- PROJECTS SECTION -->
 
-  <section class="projects">
+  <section class="projects" id="projects">
 
     <h5>
       < Projects />
@@ -141,9 +141,28 @@
       </div>
 
     </div>
-
   </section>
 
+  <!-- CONTACT SECTION -->
+
+  <section class="contact" id="contact">
+
+  <form action="https://formspree.io/moqdjopl" method="post">
+    <fieldset>
+      <legend>
+        <h4>Get in touch!</h4>
+      </legend>
+        <label for="first-name">Name:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="">
+        <label for="text">Your message:</label>
+        <textarea id="text" name="text"></textarea>
+        <input type="submit" name="submit" value="Send" class="submit">
+    </fieldset>
+  </form>
+
+</section>
 </body>
 <script src="app.js"></script>
 
