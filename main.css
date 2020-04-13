@@ -463,11 +463,15 @@ h4 {
   font-size: 1.5rem;
 }
 
+/* Div containing links to Github & Porject Site */
+
 .projectlinks {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
 }
+
+/* Project Link Icon Styling */
 
 .git2 {
   color: rgb(3, 177, 177);
@@ -475,6 +479,10 @@ h4 {
 
 .git2:hover{
   color: white;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
 }
 
 .projectlinks a {
@@ -483,6 +491,19 @@ h4 {
 
 .projectlinks a:hover {
   color: white;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
 }
 
 /* Media Queries */
