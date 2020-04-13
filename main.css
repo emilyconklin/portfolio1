@@ -7,6 +7,7 @@
 body {
   background-color: #ddd9d6;
   overflow-x: hidden;
+
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,10 +16,13 @@ body {
 nav {
   height: 75px;
   width: 100%;
+
   background-color: black;
   display: flex;
+
   align-items: center;
   justify-content: space-between;
+
   background-color: rgb(211, 208, 203);
 }
 
@@ -27,6 +31,7 @@ nav {
 nav li {
   color: white;
   list-style: none;
+
   margin: 0;
   margin-left: 2rem;
 }
@@ -34,8 +39,10 @@ nav li {
 nav ul {
   margin: 0;
   padding: 0;
+
   display: flex;
   width: 600px;
+
   justify-content: space-between;
   margin-right: 2.5rem;
 }
@@ -43,14 +50,19 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
+
   font-family: 'Roboto', sans-serif;
   letter-spacing: 3px;
+
   text-transform: uppercase;
   font-size: 1.5rem;
+
   color: #40468c;
   padding: 5px;
+
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   text-shadow: none;
+
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -227,6 +239,7 @@ button {
 
   margin-top: 1.5rem;
   font-size: 1.5rem;
+
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 
@@ -267,8 +280,10 @@ h3 {
 .skills-icons {
   display: flex;
   justify-content: space-evenly;
+
   max-width: 900px;
   margin: auto;
+
   flex-wrap: wrap;
   align-items: center;
 }
@@ -391,9 +406,6 @@ h3 {
 /* Projects Section */
 
 .projects {
-  /* background-image: url('assets/yyc.jpeg');
-  background-position: top;
-  background-size: cover; */
   background: linear-gradient(to bottom, #40468c 0%, #80a1ec 100%);
   width: 100%;
   padding: 1.5rem;
@@ -402,8 +414,10 @@ h3 {
 h5 {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+
   font-size: 5.5vw;
   color: white;
+
   margin-bottom: 1rem;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
@@ -411,6 +425,7 @@ h5 {
 .projects-container {
   display: flex;
   justify-content: space-evenly;
+
   align-items: center;
   flex-wrap: wrap;
 }
@@ -420,14 +435,17 @@ h5 {
 .container {
   position: relative;
   width: 300px;
+
   height: 300px;
   border-radius: .5rem;
+
   margin-top: 1rem;
 }
 
 .image {
   display: block;
   width: 100%;
+
   height: 300px;
   border-radius: .5rem;
 }
@@ -435,10 +453,13 @@ h5 {
 .overlay {
   position: absolute;
   bottom: 0;
+
   background-color: rgba(0, 0, 0, 0.9);
   overflow: hidden;
+
   width: 100%;
   height: 0;
+
   transition: .5s ease;
    border-radius: .5rem;
 }
@@ -447,15 +468,20 @@ h5 {
   height: 100%;
 }
 
+/* Text Styling for Project Cards */
+
 .text {
   color: white;
   font-size: 1.2rem;
   position: absolute;
+
   top: 50%;
   left: 50%;
+
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
   text-align: center;
 }
 
@@ -480,6 +506,7 @@ h4 {
 .git2:hover{
   color: white;
   animation-name: spin;
+
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
@@ -492,6 +519,7 @@ h4 {
 .projectlinks a:hover {
   color: white;
   animation-name: spin;
+
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
@@ -565,11 +593,14 @@ h4 {
     position: fixed;
     left: 100%;
     height: 100%;
+
     top: 0;
     background-color: black;
     display: BLOCK;
+
     padding-left: 1rem;
     width: 300px;
+
     transform: translateX(100%);
     transition: transform .4s ease-in;
   }
@@ -577,6 +608,7 @@ h4 {
   .nav-links a:hover {
     border: 1px solid;
     outline-color: rgba(255, 255, 255, 0);
+    
     outline-offset: 15px;
     background: linear-gradient(120deg, #29252a 50%, black 50%);
     color: white;
