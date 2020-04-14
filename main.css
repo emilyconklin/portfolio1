@@ -666,7 +666,8 @@ textarea {
   }
 
   .hero img {
-    width: 400px;
+    max-width: 300px;
+
     margin: AUTO;
   }
 
