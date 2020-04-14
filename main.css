@@ -565,7 +565,7 @@ h4 {
 /* Form Styling */
 
 form {
-  width: 500px;
+  max-width: 500px;
   background-color: rgb(224, 224, 224);
 
   padding: 1rem;
@@ -599,7 +599,7 @@ fieldset {
 
   border-radius: .5rem;
   font-size: .8rem;
-  
+
   text-transform: uppercase;
 }
 
