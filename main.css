@@ -22,6 +22,10 @@ nav {
 
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  background-color: #ddd9d6;
+  z-index: 1000;
+  top: 0;
 }
 
 /* Navigation Bar */
@@ -153,6 +157,7 @@ main img {
 
   width: max-content;
   margin: auto;
+  margin-top: 4rem;
 }
 
 .hero-contain {
@@ -670,7 +675,7 @@ textarea {
   }
 
   .hero {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     max-width: 350px;
   }
 
