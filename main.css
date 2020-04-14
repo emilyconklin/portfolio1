@@ -563,8 +563,9 @@ h4 {
 }
 
 aside {
-  background-color: ivory;
+  background-color: rgb(224, 224, 224);
   width:500px;
+  padding: 1rem;
 }
 
 h4 {
