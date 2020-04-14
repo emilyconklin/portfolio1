@@ -558,12 +558,6 @@ h4 {
   padding: 2rem;
 }
 
-.contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
 h4 {
   margin-bottom: .5rem;
 }
@@ -578,10 +572,6 @@ form {
   font-size: 1.2rem;
 
   margin: auto;
-}
-
-legend {
-  margin-bottom: .5rem;
 }
 
 label {
