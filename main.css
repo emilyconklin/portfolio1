@@ -563,9 +563,11 @@ h4 {
 }
 
 aside {
-  background-color: rgb(224, 224, 224);
+  /* background-color: rgb(224, 224, 224); */
+  background-color: #333;
   width:500px;
   padding: 2rem;
+  color: white;
 }
 
 aside p {
@@ -595,6 +597,7 @@ aside img {
 aside h4 {
   margin-bottom: .5rem;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 /* Form Styling */
