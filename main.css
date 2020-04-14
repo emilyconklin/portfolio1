@@ -664,6 +664,7 @@ textarea {
   .hero img {
     max-width: 300px;
     height: auto;
+    object-fit: cover;
   }
 
   .hero {
@@ -685,7 +686,7 @@ textarea {
 
   main img {
     width: 300px;
-    object-fit: contain;
+    object-fit: cover;
   }
 }
 
