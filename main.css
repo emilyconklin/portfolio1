@@ -469,7 +469,7 @@ h5 {
   position: absolute;
   bottom: 0;
 
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   overflow: hidden;
 
   width: 100%;
@@ -486,7 +486,7 @@ h5 {
 /* Text Styling for Project Cards */
 
 .text {
-  color: black;
+  color: white;
   font-size: 1.2rem;
   position: absolute;
 
