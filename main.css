@@ -591,13 +591,12 @@ aside img {
   border-radius: 50%;
   display: block;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1.7rem;
 }
 
 aside h4 {
   margin-bottom: .5rem;
   text-align: center;
-  letter-spacing: 1px;
 }
 
 /* Form Styling */
