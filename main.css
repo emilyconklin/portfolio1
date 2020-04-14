@@ -96,20 +96,15 @@ nav a:hover {
 
 .logo-text {
   letter-spacing: initial;
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-left: 1rem;
-  font-weight: 900;
+  font-family: 'Staatliches', cursive;
 }
 
 .logo-contain {
   display: flex;
   align-items: center;
 }
-
-/* 
-.logo-contain a {
-color: rgb(1, 149, 149);
-} */
 
 .fa-star-and-crescent {
   font-size: 2rem;
