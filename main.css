@@ -46,7 +46,7 @@ nav ul {
   width: 600px;
 
   justify-content: space-between;
-  margin-right: 2.5rem;
+  margin-right: 1.3rem;
 }
 
 nav a {
@@ -101,7 +101,7 @@ nav a:hover {
   letter-spacing: initial;
   font-size: 2rem;
 
-  margin-left: 1rem;
+  margin-left: 1.3rem;
   font-family: 'Staatliches', cursive;
   
   display: flex;
