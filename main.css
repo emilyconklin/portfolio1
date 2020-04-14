@@ -99,8 +99,10 @@ nav a:hover {
 .logo-text {
   letter-spacing: initial;
   font-size: 2rem;
+
   margin-left: 1rem;
   font-family: 'Staatliches', cursive;
+  
   display: flex;
   align-items: center;
 }
@@ -666,8 +668,8 @@ textarea {
   }
 
   .hero img {
-    max-width: 320px;
-    height: 300px;
+    max-width: 350px;
+    height: 250px;
     object-fit: contain;
     margin: auto;
   }
