@@ -565,7 +565,7 @@ h4 {
 aside {
   /* background-color: rgb(224, 224, 224); */
   /* background-color: #333; */
-  background: linear-gradient(180deg, #29252a 35%, black 35%);
+  background: linear-gradient(180deg, #29252a 30%, black 30%);
   width:500px;
   padding: 2rem;
   color: white;
