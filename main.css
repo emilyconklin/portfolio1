@@ -169,7 +169,7 @@ main img {
   font-size: 4vw;
   text-transform: uppercase;
 
-  letter-spacing: 20px;
+  letter-spacing: 15px;
   font-family: 'Mansalva', cursive;
 
   color: rgb(17, 17, 17);
@@ -256,7 +256,7 @@ button:hover {
 
 h3 {
   font-size: 3rem;
-  letter-spacing: 20px;
+  letter-spacing: 15px;
   text-transform: uppercase;
 
   font-family: 'Mansalva', cursive;
@@ -662,14 +662,14 @@ textarea {
   }
 
   .hero img {
-    max-width: 300px;
+    max-width: 350px;
     height: 300px;
     object-fit: contain;
   }
 
   .hero {
     margin-top: 1rem;
-    max-width: 300px;
+    max-width: 350px;
   }
 
   .hero-contain p {
