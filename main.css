@@ -78,10 +78,11 @@ nav a:hover {
 
 /* Menu SVG */
 
-.feather-menu {
+.burger {
   margin-right: 2rem;
-  color: rgb(101, 57, 172);
+  height: 20px;
 }
+
 
 .menu {
   display: none;
