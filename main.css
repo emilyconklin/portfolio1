@@ -692,6 +692,10 @@ textarea {
     object-fit: contain;
     margin: auto;
   }
+
+  aside {
+    background: linear-gradient(180deg, #29252a 25%, black 25%);
+  }
 }
 
 @media (max-width: 1000px) {
