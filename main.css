@@ -114,7 +114,6 @@ nav a:hover {
 main {
   background: linear-gradient(120deg, #29252a 50%, black 50%);
   background-position: center;
-  object-fit: cover;
 
   margin-top: 1REM;
   padding: 1rem;
@@ -126,8 +125,8 @@ main {
   font-size: 1.6rem;
 }
 
-.me-img {
-  width: 400px;
+main img {
+  max-width: 400px;
   margin-right: 2rem;
 
   display: block;
@@ -164,7 +163,7 @@ main {
 }
 
 .hero img {
-  width: 40vw;
+  max-width: 40vw;
   height: auto;
 }
 
