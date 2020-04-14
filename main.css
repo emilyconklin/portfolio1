@@ -112,9 +112,6 @@ nav a:hover {
 /* MAIN */
 
 main {
-  height: max-content;
-  width: 100%;
-
   background: linear-gradient(120deg, #29252a 50%, black 50%);
   background-position: center;
   object-fit: cover;
