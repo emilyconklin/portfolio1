@@ -556,6 +556,15 @@ h4 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/yyc.jpg");
   background-size: cover;
   padding: 2rem;
+
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+aside {
+  background-color: ivory;
+  width:500px;
 }
 
 h4 {
@@ -564,8 +573,12 @@ h4 {
 
 /* Form Styling */
 
+.formcontainer {
+  width: 500px;
+}
+
 form {
-  max-width: 500px;
+  width: 100%;
   background-color: rgb(224, 224, 224);
 
   padding: 1rem;
