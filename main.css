@@ -565,11 +565,36 @@ h4 {
 aside {
   background-color: rgb(224, 224, 224);
   width:500px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
-h4 {
+aside p {
+  margin-bottom: 1rem;
+}
+
+.icon-contain {
+  display: flex;
+  justify-content: space-evenly;
+  width: 200px;
+  margin: auto;
+}
+
+aside i {
+  font-size: 2rem;
+}
+
+aside img {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+aside h4 {
   margin-bottom: .5rem;
+  text-align: center;
 }
 
 /* Form Styling */
