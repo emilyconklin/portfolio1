@@ -540,7 +540,7 @@ h4 {
 /* CONTACT SECTION STYLES */
 
 .contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/yyc.jpg");
+  background: url("assets/yyc.jpg");
   background-size: cover;
   padding: 2rem;
 
