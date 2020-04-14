@@ -17,7 +17,9 @@
   <!-- BEGINNING OF NAV -->
   <nav>
     <!-- LOGO -->
-    <div class="logo-contain"><a href="index.html" id="logo-a"><span class="logo-text">
+    <div class="logo-contain">
+      <a href="index.html" id="logo-a">
+        <span class="logo-text">
           <i class="fas fa-star-and-crescent"></i> EC Designs</span></a>
     </div>
 
@@ -65,8 +67,6 @@
     </section>
   </main>
 
-
-
   <!-- SKILLS SECTION -->
   <section class="skills" id="skills">
     <h3>Mad Skills</h3>
@@ -84,7 +84,6 @@
   </section>
 
   <!-- PROJECTS SECTION -->
-
   <section class="projects" id="projects">
 
     <h5>
@@ -102,8 +101,8 @@
             <p>Api fetch request using HTML, CSS and vanilla Javascript.
             </p><br>
             <div class="projectlinks">
-             <a href="https://github.com/emilyconklin/hpApi"><i class="fab fa-github git2"></i></a>
-             <a href="https://friendly-khorana-27a1c1.netlify.com/"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/emilyconklin/hpApi"><i class="fab fa-github git2"></i></a>
+              <a href="https://friendly-khorana-27a1c1.netlify.com/"><i class="fas fa-globe"></i></a>
             </div>
           </div>
 
@@ -117,8 +116,8 @@
             <h4>MongoDB Gallery</h4><Br>
             <p>Simple gallery built using MongoDB, Node.js and EJS.</p><br>
             <div class="projectlinks">
-             <a href="https://github.com/emilyconklin/mongoose-gallery"><i class="fab fa-github git2"></i></a>
-             <a href="https://mongoose-gallery1.herokuapp.com/"><i class="fas fa-globe"></i></a>
+              <a href="https://github.com/emilyconklin/mongoose-gallery"><i class="fab fa-github git2"></i></a>
+              <a href="https://mongoose-gallery1.herokuapp.com/"><i class="fas fa-globe"></i></a>
             </div>
           </div>
         </div>
@@ -144,14 +143,16 @@
   </section>
 
   <!-- CONTACT SECTION -->
-
   <section class="contact" id="contact">
 
-  <form action="https://formspree.io/moqdjopl" method="post">
-    <fieldset>
-      <legend>
-        <h4>Get in touch!</h4>
-      </legend>
+    <!-- FORM -->
+    <form action="https://formspree.io/moqdjopl" method="post">
+      <fieldset>
+        <legend>
+          <h4>Thanks for checking out my portfolio!</h4>
+          <p>If you are looking for any services pertaining to web or graphic design, and you like what you see, please
+            drop me a line. </p>
+        </legend>
         <label for="first-name">Name:</label>
         <input type="text" name="first-name" id="first-name" placeholder="">
         <label for="email">Email:</label>
@@ -159,10 +160,11 @@
         <label for="text">Your message:</label>
         <textarea id="text" name="text"></textarea>
         <input type="submit" name="submit" value="Send" class="submit">
-    </fieldset>
-  </form>
+      </fieldset>
+    </form>
 
-</section>
+    </div>
+  </section>
 </body>
 <script src="app.js"></script>
 
