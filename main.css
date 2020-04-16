@@ -279,7 +279,7 @@ h3 {
   display: flex;
   justify-content: space-evenly;
 
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
 
   flex-wrap: wrap;
