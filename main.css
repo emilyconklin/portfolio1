@@ -391,6 +391,11 @@ h3 {
 
 /* Skills Icon Colours */
 
+.fa-react {
+  color: #61DBFB;
+  font-size: 4rem;
+}
+
 .fa-github {
   color: rebeccapurple;
 }
@@ -456,6 +461,7 @@ h5 {
 
   height: 300px;
   border-radius: .5rem;
+  object-fit: cover;
 }
 
 .overlay {
