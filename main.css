@@ -8,7 +8,7 @@ body {
   background-color: #ddd9d6;
   overflow-x: hidden;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-rendering: optimizeSpeed;
 }
 
@@ -55,7 +55,7 @@ nav a {
   color: white;
   text-decoration: none;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 3px;
 
   text-transform: uppercase;
@@ -85,7 +85,6 @@ nav a:hover {
   height: 20px;
 }
 
-
 .menu {
   display: none;
 }
@@ -104,15 +103,15 @@ nav a:hover {
   font-size: 2rem;
 
   margin-left: 1.3rem;
-  font-family: 'Staatliches', cursive;
-  
+  font-family: "Staatliches", cursive;
+
   display: flex;
   align-items: center;
 }
 
 .fa-star-and-crescent {
   font-size: 2rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 /* MAIN */
@@ -121,7 +120,7 @@ main {
   background: linear-gradient(120deg, #29252a 50%, black 50%);
   background-position: center;
 
-  margin-top: 1REM;
+  margin-top: 1rem;
   padding: 1rem;
 
   display: flex;
@@ -179,7 +178,7 @@ main img {
   text-transform: uppercase;
 
   letter-spacing: 15px;
-  font-family: 'Mansalva', cursive;
+  font-family: "Mansalva", cursive;
 
   color: rgb(17, 17, 17);
 }
@@ -187,7 +186,7 @@ main img {
 /* "Modern" Heading */
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 7vw;
 
   color: #333;
@@ -207,7 +206,7 @@ h1 {
 /* "Powerful" Heading */
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 9vw;
 
   color: #40468c;
@@ -240,11 +239,11 @@ button {
   margin-top: 1.5rem;
   font-size: 1.5rem;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 
   letter-spacing: 2px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 button:hover {
@@ -269,7 +268,7 @@ h3 {
   letter-spacing: 15px;
   text-transform: uppercase;
 
-  font-family: 'Mansalva', cursive;
+  font-family: "Mansalva", cursive;
   text-align: center;
 
   margin-top: 1rem;
@@ -291,12 +290,12 @@ h3 {
 
 .skills-icons img {
   display: block;
-  margin: .5rem;
+  margin: 0.5rem;
   transition: all 0.3s ease;
 }
 
 .skills-icons i {
-  margin: .5rem;
+  margin: 0.5rem;
   display: block;
   transition: all 0.3s ease;
 }
@@ -396,7 +395,7 @@ h3 {
 /* Skills Icon Colours */
 
 .fa-react {
-  color: #61DBFB;
+  color: #61dbfb;
   font-size: 4rem;
 }
 
@@ -430,7 +429,7 @@ h3 {
 
 h5 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 
   font-size: 5.5vw;
   color: white;
@@ -454,7 +453,7 @@ h5 {
   width: 300px;
 
   height: 300px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 
   margin-top: 1rem;
 }
@@ -464,7 +463,7 @@ h5 {
   width: 100%;
 
   height: 300px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -478,8 +477,8 @@ h5 {
   width: 100%;
   height: 0;
 
-  transition: .5s ease;
-  border-radius: .5rem;
+  transition: 0.5s ease;
+  border-radius: 0.5rem;
 }
 
 .container:hover .overlay {
@@ -622,10 +621,10 @@ form {
 
 label {
   display: block;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 
   text-transform: uppercase;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 fieldset {
@@ -639,8 +638,8 @@ fieldset {
   color: white;
   font-size: 1rem;
 
-  border-radius: .5rem;
-  font-size: .8rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
 
   text-transform: uppercase;
 }
@@ -662,9 +661,8 @@ textarea {
 /* Media Queries */
 
 @media (orientation: portrait) {
-
   .hero-contain {
-    Margin: AUTO;
+    margin: AUTO;
   }
 
   h2 {
@@ -707,7 +705,7 @@ textarea {
   main img {
     width: 300px;
     height: 300px;
-    
+
     object-fit: contain;
     margin: auto;
   }
@@ -718,7 +716,6 @@ textarea {
 }
 
 @media (max-width: 1000px) {
-
   body {
     overflow-x: hidden;
   }
@@ -736,7 +733,7 @@ textarea {
     width: 300px;
 
     transform: translateX(100%);
-    transition: transform .4s ease-in;
+    transition: transform 0.4s ease-in;
     z-index: 1000;
   }
 
