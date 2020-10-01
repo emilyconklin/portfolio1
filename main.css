@@ -6,7 +6,6 @@
 
 body {
   background-color: #ddd9d6;
-  overflow-x: hidden;
 
   font-family: "Roboto", sans-serif;
   text-rendering: optimizeSpeed;
@@ -122,6 +121,7 @@ main {
 
   margin-top: 1rem;
   padding: 1rem;
+  width: 100%;
 
   display: flex;
   flex-wrap: wrap;
@@ -160,6 +160,7 @@ main img {
   width: max-content;
   margin: auto;
   margin-top: 4rem;
+  overflow-x: hidden;
 }
 
 .hero-contain {
